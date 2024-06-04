@@ -14,7 +14,7 @@ reqwest = { version="0.11", default_features=false, features=["rustls-tls", "jso
 tokio = {version = "1", features = ["macros", "rt", "rt-multi-thread", "time"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml = "0.9"
-hyper = "0.14"
+hyper = "1.2"
 failure = "0.1"
 lazy_static = "1"
 env_logger = "0.11"
